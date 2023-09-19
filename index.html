@@ -9,32 +9,16 @@
     <script src="src/Components/TituloDinamico.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <div class="card__left">
-          <span>Ednaldo Pereira</span>
-          <h1>Darth Vader Contrata Devs</h1>
-          <p>
-            Darth Vader procura desenvolvedores que sabem trabalhar com
-            componentes.
-          </p>
-        </div>
-        <div class="card__right">
-          <img src="assets/asset-vader.png" alt="" />
-        </div>
-      </div>
+    <div class="app-root">
+      <card-news
+        autor="Ednaldo Pereira"
+        title="Darth Vader Contrata"
+        link-url="www.google.com"
+        photo="assets/asset-vader.png"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com
+      componentes."
+      >
+      </card-news>
     </div>
-
-    <card-news
-      autor="Ednaldo Pereira"
-      title="Darth Vader Contrata"
-      link-url="www.google.com"
-      photo="assets/asset-vader.png"
-      content="Darth Vader procura desenvolvedores que sabem trabalhar com
-        componentes."
-    >
-    </card-news>
-    <titulo-dinamico titulo="Notícia"></titulo-dinamico>
-    <titulo-dinamico titulo="Novo Título"></titulo-dinamico>
   </body>
 </html>
